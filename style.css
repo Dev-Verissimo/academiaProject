@@ -2,10 +2,14 @@ body{
     background-color: #edf6f9;
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
 }
 header{
     /* width: 100vw; */
     height: 100px;
+}
+header a{
+    display: block;
 }
 
 header nav{
@@ -19,9 +23,9 @@ header nav{
     align-content: space-between;
 }
 
-header nav div{
+header nav div, header nav a{
     /* background-color: #2b2d42; */
-    width: 33vw
+    width: 25vw;
 
 }
 
@@ -30,7 +34,16 @@ header nav div:hover{
     /* width: 30%; */
 
 }
-
+header nav a {
+    height: 100%;
+    /* display: inline-block; */
+    /* background-color: aquamarine; */
+}
+header nav a :hover{
+    height: 100%;
+    display: inline-block;
+    background-color: aquamarine;
+}
 header nav div a{
     text-decoration: none;
     color: white;
