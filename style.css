@@ -55,6 +55,8 @@ header nav button{
     border-radius: 2px;
     color: white;
 
+    
+
     /* width:100px; */
     
     /* border: none;
@@ -62,6 +64,10 @@ header nav button{
     padding: 10px;
 
     font-size: 15px; */
+}
+
+a button{
+    cursor: pointer;
 }
 
 header nav input{
