@@ -1,0 +1,39 @@
+
+main{
+    border: 2px solid rgb(240, 28, 144);
+    margin-top: 35vh;
+    width: 50%;
+    margin-left: 23%;
+    min-height: 30vh;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+form label{
+    text-align: center;
+    font-size: 240%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 70%;
+    text-align: center;
+}
+button{
+width:100px;
+    background-color: rgb(228, 29, 162);
+    border: none;
+    color: white;
+    padding: 10px;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+
+}
