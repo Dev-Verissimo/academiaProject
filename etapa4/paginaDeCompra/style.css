@@ -24,6 +24,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: 100vh;
 
     
 }
@@ -65,4 +66,32 @@ main section h1{
 
 td{
     width: 50px;
+}
+
+button{
+    width:100px;
+        background-color: rgb(228, 29, 162);
+        border: none;
+        color: white;
+        padding: 10px;
+
+        margin-top: -17px;
+    
+        border-radius: 5px;
+    
+        font-size: 15px;
+    
+    }
+
+
+.pagamento{
+    height: 100vw;
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 20px;
 }

@@ -1,5 +1,6 @@
-const nome = document.getElementById('name')
-const name = document.getElementById('senha')
+const nomes = prompt('Qual é o seu nome')
+let nome = document.getElementById('nomeReal')
+//const name = document.getElementById('senha')
+nome.innerHTML = `${nomes}`
 
 
-nome.innerHTML = document.getElementById('nomeReal')
