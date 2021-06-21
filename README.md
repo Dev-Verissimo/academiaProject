@@ -1,2 +1,1 @@
-# plataforma-de-academia
-# plataforma-de-academia
+# https://dev-verissimo.github.io/academiaProject/
